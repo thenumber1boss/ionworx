@@ -8,10 +8,6 @@ export default {
   theme: {
     darkMode: 'selector',
     extend: { 
-      fontFamily: {
-        playfair: ['"Playfair Display"', 'serif'],
-        montserrat: ['Montserrat', 'sans-serif'], 
-      },
       fontWeight: {
         thin: '100',
         'extra-light': '200',
