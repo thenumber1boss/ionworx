@@ -16,7 +16,7 @@ const NavBar = () => {
 
   const pathname = usePathname();
   const isActive = (href: string) => {
-    if (href.includes("#")) {
+    if (typeof window !== "undefined" && href.includes("#")) {
       return window.location.hash === href; // Check if the hash matches
     }
     return pathname === href; // For regular paths
