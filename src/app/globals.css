@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --background-light: #ffffff;
+  --background-dark: #131313;
+  --primary-color: #315B8D;
+  --secondary-color: #f0f0f0;
+  --accent-color: #E5A448;
+  --text-dark: #f0f0f0;
+  --text-light: #131313;
+}
+
+body {
+  @apply bg-[var(--background-light)] dark:bg-[var(--background-dark)] text-[var(--text-dark)] dark:text-[var(--text-light)];
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+
+  
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}

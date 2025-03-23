@@ -1,0 +1,61 @@
+.button {
+    @apply flex items-center justify-center px-[6px] py-[3px] rounded-[4px] cursor-pointer md:rounded-[8px] gap-[10px];
+    
+    &.default {
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        color: #333;
+
+        &.disabled {
+            @apply border-[#505050] bg-[#5050504b];
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+    }
+
+    &.primary {
+        border: 1px solid #315B8D;
+        @apply min-w-[167px] h-[48px] bg-[#315B8D] text-white;
+
+        &.disabled {
+            @apply border-[#505050] bg-[#5050504b];
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+    }
+
+    &.secondary {
+        border: 1px solid #E5A448;
+        @apply min-w-[167px] h-[48px] text-[#030303] bg-[#E5A448];
+
+        &.disabled {
+            @apply border-[#505050] bg-[#5050504b];
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+    }
+
+}
+
+
+
+.divClass {
+    &.white {
+        color: white;
+    }
+
+    &.black {
+        color: #020202;
+    }
+}
+
+.iconClass {
+    &.white {
+        fill: white;
+    }
+
+    &.black {
+        fill: #020202;
+    }
+}
+
