@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, Close, } from "@mui/icons-material";
-import styles from "@components/header/navbar.module.scss"; // Import the CSS module
+import styles from "@components/header/navBar.module.scss"; // Import the CSS module
 import Image from "next/image";
 import { Button } from "@components/button/button";
 
