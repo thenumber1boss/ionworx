@@ -1,5 +1,5 @@
 "use client"
-import styles from "../app/homepage.module.scss"; 
+import styles from "@components/homepage.module.scss"; 
 import {MoneyBagIcon, EcoFriendlyIcon, EnergyIcon} from "@app/icons/icons"; //
 import Button from "@components/button/button"; 
 import LatestProjectsGrid from "@components/latest-Project/latestProject";
