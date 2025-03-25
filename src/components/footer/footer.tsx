@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-      <footer className="bg-[#315B8D] text-[var(--text-dark)] dark:text-[var(--text-light)] py-[40px] lg:py-[80px] px-6 gap-[40px} sm:gap-[auto]">
+      <footer className="bg-[#315B8D] text-[var(--text-dark)] py-[40px] lg:py-[80px] px-6 gap-[40px} sm:gap-[auto]">
         <div className="max-w-[1440px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-center">
           {/* Brand */}
           <div className="font-bold text-2xl">Ionworx</div>
@@ -45,7 +45,7 @@ export default function Footer() {
             </div>
           </div>
             <div className="flex flex-col items-center text-center mt-[40px] text-sm">
-            <span className="text-[var(--text-dark)] dark:text-[var(--text-light)] text-[12px]">Copyright © {new Date().getFullYear()} All rights reserved Ionworx Limited.</span>
+            <span className="text-[var(--text-dark)] text-[12px]">Copyright © {new Date().getFullYear()} All rights reserved Ionworx Limited.</span>
             <br />
             <span className="flex mt-[-20px] text-[#a3a3a3] text-[12px]">
               Powered by <a href="https://www.gritinformedia.tech" className="hover:underline ml-[4px] text-[#E5A448]">Grit</a>

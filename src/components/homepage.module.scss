@@ -21,7 +21,7 @@
                 @apply flex flex-col items-start max-w-[400px] lg:max-w-[680px] gap-[20px];
                 
                 .heroTitle {
-                    @apply text-[var(--text-dark)] font-[700] text-[24px] lg:text-[48px] leading-[1.2] lg:leading-[1.1];
+                    @apply text-[var(--text-dark)] font-[400] text-[24px] lg:text-[48px] leading-[1.2] lg:leading-[1.1];
                 }
 
                 .heroDescription {
@@ -55,7 +55,7 @@
         .content1 {
             @apply flex flex-col gap-[10px] md:w-[30%] md:sticky md:top-[96px] h-[fit-content];
             .title {
-                @apply text-[var(--text-light)] dark:text-[var(--text-dark)] font-[700] text-[24px] lg:text-[48px] leading-[1.2] lg:leading-[1.1];
+                @apply text-[var(--text-light)] dark:text-[var(--text-dark)] font-[400] text-[24px] lg:text-[48px] leading-[1.2] lg:leading-[1.1];
             }
         }
 
@@ -90,7 +90,7 @@
         .content1 {
           @apply flex flex-col gap-[20px] items-center sticky top-[78px] md:top-[96px] h-[fit-content] z-[2] bg-[#fff] dark:bg-[var(--background-dark)] py-[20px];
           .title {
-            @apply text-[var(--text-light)] dark:text-[var(--text-dark)] font-[700] text-[24px] lg:text-[48px] leading-[1.2] lg:leading-[1.1];
+            @apply text-[var(--text-light)] dark:text-[var(--text-dark)] font-[400] text-[24px] lg:text-[48px] leading-[1.2] lg:leading-[1.1];
           }
           .text {
             @apply text-[#848484] font-[400] text-[14px] lg:text-[16px] text-center px-[20px] sm:px-[40px] leading-[1.5] max-w-[744px]; 
@@ -121,7 +121,7 @@
         .content1 {
           @apply flex flex-col gap-[20px] items-center top-[78px] sticky sm:relative bg-[#fff] dark:bg-[var(--background-dark)] z-[2] py-[20px];
           .title {
-            @apply text-[var(--text-light)] dark:text-[var(--text-dark)] font-[700] text-[24px] lg:text-[48px] leading-[1.2] lg:leading-[1.1];
+            @apply text-[var(--text-light)] dark:text-[var(--text-dark)] font-[400] text-[24px] lg:text-[48px] leading-[1.2] lg:leading-[1.1];
           }
           .text {
             @apply text-[#848484] font-[400] text-[14px] lg:text-[16px] text-center px-[20px] sm:px-[40px] leading-[1.5] max-w-[744px]; 
@@ -164,7 +164,7 @@
             @apply flex flex-col gap-[10px] md:w-[30%] md:sticky top-[100px] h-[fit-content] z-[2];
             
             .title {
-                @apply text-[#E5A448] font-[700] text-[24px] lg:text-[48px] leading-[1.2] lg:leading-[1.1];
+                @apply text-[#E5A448] font-[400] text-[24px] lg:text-[48px] leading-[1.2] lg:leading-[1.1];
             }
 
             .text2 {
@@ -184,7 +184,7 @@
     .latestProjectContainer {
         @apply flex flex-col gap-[40px] lg:gap-[100px] w-full pb-[40px] lg:pb-[130px] mx-[auto];
           .title {
-            @apply text-[var(--text-light)] dark:text-[var(--text-dark)] font-[700] text-[24px] lg:text-[48px] leading-[1.2] lg:leading-[1.1];
+            @apply text-[var(--text-light)] dark:text-[var(--text-dark)] font-[400] text-[24px] lg:text-[48px] leading-[1.2] lg:leading-[1.1];
           }
         }
     
