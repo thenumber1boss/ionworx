@@ -53,7 +53,7 @@ export default function Home() {
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl leading-relaxed">
-              The grid is unreliable. Prices are rising. Ionworx engineering upgrades your property with elite solar infrastructure that pays for itself. 
+              The grid is unreliable. Prices are rising. Ionworx New Energies Ltd. upgrades your property with elite solar infrastructure that pays for itself. 
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mt-2">
@@ -135,7 +135,7 @@ export default function Home() {
       <section className="py-24 px-6 max-w-7xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-5xl font-bold font-[family-name:var(--font-heading)] mb-6">Why the old grid is <span className="text-red-500">failing</span> you.</h2>
-            <p className="text-muted-foreground text-lg">You are renting power at a premium price. Ionworx helps you become your own utility company.</p>
+            <p className="text-muted-foreground text-lg">You are renting power at a premium price. Ionworx New Energies Ltd. helps you become your own utility company.</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -153,8 +153,8 @@ export default function Home() {
                 <div className="w-12 h-12 bg-[hsl(var(--accent))]/10 rounded-full flex items-center justify-center mb-6 text-[hsl(var(--accent))] relative z-10">
                     <ShieldCheck size={24} />
                 </div>
-                <h3 className="text-xl font-bold mb-3 relative z-10">The Ionworx Standard</h3>
-                <p className="text-muted-foreground relative z-10">We don't do "manage." We do "solve." Our systems are oversized to handle startup loads that crush cheap inverters.</p>
+                <h3 className="text-xl font-bold mb-3 relative z-10">The Ionworx New Energies Ltd. Standard</h3>
+                <p className="text-muted-foreground relative z-10">We don&apos;t do &quot;manage.&quot; We do &quot;solve.&quot; Our systems are oversized to handle startup loads that crush cheap inverters.</p>
             </div>
             {/* Pain Point 3 */}
             <div className="p-8 rounded-2xl bg-secondary/20 border border-transparent hover:border-blue-500/30 transition-colors">

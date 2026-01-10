@@ -21,7 +21,7 @@ export default function AboutPage() {
             We are the <span className="text-[hsl(var(--accent))]">Architects</span> of the New Grid.
           </h1>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            Ionworx was born from a simple frustration: The sun is free, yet power is expensive. We are engineering the bridge between the two.
+            Ionworx New Energies Ltd. was born from a simple frustration: The sun is free, yet power is expensive. We are engineering the bridge between the two.
           </p>
         </div>
       </section>
