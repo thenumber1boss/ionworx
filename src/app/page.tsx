@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { 
   ArrowRight, 
   Zap, 
@@ -22,7 +23,15 @@ export default function Home() {
         
         {/* Background Effects */}
         <div className="absolute inset-0 z-0 pointer-events-none">
-          <div className="absolute inset-0 bg-[url('/images/hero-bg.png')] bg-cover bg-center opacity-40 dark:opacity-20 mix-blend-overlay"></div>
+          <div className="absolute inset-0">
+            <Image
+                src="/images/hero-bg.png"
+                alt=""
+                fill
+                priority
+                className="object-cover opacity-40 dark:opacity-20 mix-blend-overlay"
+            />
+            </div>
           <div className="absolute inset-0 bg-gradient-to-b from-background/90 via-transparent to-background"></div>
           <div className="absolute inset-0 bg-gradient-to-r from-background via-transparent to-transparent/50"></div>
         </div>
@@ -86,7 +95,12 @@ export default function Home() {
                 {/* Gradient fade to blend hard edge */}
                 <div className="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-background to-transparent z-10"></div>
                 
-                <img src="/images/hero-img.png" alt="Solar Installation" className="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-1000" />
+                <Image src="/images/hero-img.png"
+                     alt="Solar Installation" 
+                    fill
+                     className="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-1000"
+                     priority
+                 />
                 
                 {/* Floating Stats Card */}
                 <div className="absolute bottom-6 left-6 right-6 lg:bottom-10 lg:left-10 lg:right-10 p-6 rounded-xl bg-background/90 backdrop-blur-md border border-white/10 shadow-lg z-20">
